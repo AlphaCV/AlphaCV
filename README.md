@@ -1,21 +1,52 @@
-# Hi, I'm AlphaCV
+<div align="center">
 
-[![今日打卡](https://img.shields.io/badge/%E4%BB%8A%E6%97%A5%E6%89%93%E5%8D%A1-2ea44f?style=for-the-badge)](https://github.com/AlphaCV/Task-Checkin/issues/new?template=checkin.yml)
-[![新增任务](https://img.shields.io/badge/%E6%96%B0%E5%A2%9E%E4%BB%BB%E5%8A%A1-0969da?style=for-the-badge)](https://github.com/AlphaCV/Task-Checkin/issues/new?template=add-task.yml)
-[![详细看板](https://img.shields.io/badge/%E8%AF%A6%E7%BB%86%E7%9C%8B%E6%9D%BF-8250df?style=for-the-badge)](https://alphacv.github.io/Task-Checkin/)
+# AlphaCV
 
-![Task Check-in](https://raw.githubusercontent.com/AlphaCV/Task-Checkin/main/docs/checkin-card.svg)
+### Task Check-in Hub
 
-## 使用说明
+把阶段任务、长期任务和每日推进记录在 GitHub 上。
 
-- `今日打卡`: 给已有任务添加打卡记录
-- `新增任务`: 添加一个新的独立任务块
-- `详细看板`: 打开完整任务打卡界面
-- 每个任务块里都有 `ID`，打卡时填写这个 ID
+<a href="https://github.com/AlphaCV/Task-Checkin/issues/new?template=checkin.yml">
+  <img alt="Daily Check-in" src="https://img.shields.io/badge/Daily_Check--in-2da44e?style=for-the-badge&logo=github&logoColor=white">
+</a>
+<a href="https://github.com/AlphaCV/Task-Checkin/issues/new?template=add-task.yml">
+  <img alt="New Task" src="https://img.shields.io/badge/New_Task-0969da?style=for-the-badge&logo=githubactions&logoColor=white">
+</a>
+<a href="https://alphacv.github.io/Task-Checkin/">
+  <img alt="Dashboard" src="https://img.shields.io/badge/Dashboard-8250df?style=for-the-badge&logo=githubpages&logoColor=white">
+</a>
 
-本地更新也可以使用：
+<br>
+<br>
+
+<a href="https://alphacv.github.io/Task-Checkin/">
+  <img alt="Task Check-in board" src="https://raw.githubusercontent.com/AlphaCV/Task-Checkin/main/docs/checkin-card.svg" width="920">
+</a>
+
+<br>
+
+<sub>
+Issue Forms record tasks and check-ins. GitHub Actions refresh the SVG automatically.
+</sub>
+
+</div>
+
+---
+
+<details>
+<summary><strong>How I use this board</strong></summary>
+
+| Action | Entry | Description |
+| --- | --- | --- |
+| Daily check-in | [Open form](https://github.com/AlphaCV/Task-Checkin/issues/new?template=checkin.yml) | Add today's progress to an existing task. |
+| New task | [Open form](https://github.com/AlphaCV/Task-Checkin/issues/new?template=add-task.yml) | Create a separate task block with priority and cadence. |
+| Full dashboard | [Open page](https://alphacv.github.io/Task-Checkin/) | View task cards, heatmap, records and anime check-in scenes. |
+
+Local update example:
 
 ```bash
 python scripts/update_checkins.py add-checkin --task daily-work-log --note "完成今天的工作记录" --progress 80
 python scripts/render_checkin_svg.py
 ```
+
+</details>
