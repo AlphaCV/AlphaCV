@@ -13,7 +13,7 @@ Track stage goals, long-term work, and daily progress directly on GitHub.
   <img alt="Create" src="https://img.shields.io/badge/Create-0969da?style=for-the-badge&logo=githubactions&logoColor=white">
 </a>
 <a href="https://alphacv.github.io/Task-Checkin/">
-  <img alt="Dashboard" src="https://img.shields.io/badge/Dashboard-8250df?style=for-the-badge&logo=githubpages&logoColor=white">
+  <img alt="Dashboard" src="./dashboard-button.svg" height="40">
 </a>
 
 <br>
