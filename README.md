@@ -10,7 +10,7 @@ Track stage goals, long-term work, and daily progress directly on GitHub.
   <img alt="Check In" src="https://img.shields.io/badge/Check_In-2da44e?style=for-the-badge&logo=github&logoColor=white">
 </a>
 <a href="https://github.com/AlphaCV/Task-Checkin/issues/new?template=add-task.yml">
-  <img alt="New Task" src="https://img.shields.io/badge/New_Task-0969da?style=for-the-badge&logo=githubactions&logoColor=white">
+  <img alt="Create" src="https://img.shields.io/badge/Create-0969da?style=for-the-badge&logo=githubactions&logoColor=white">
 </a>
 <a href="https://alphacv.github.io/Task-Checkin/">
   <img alt="Dashboard" src="https://img.shields.io/badge/Dashboard-8250df?style=for-the-badge&logo=githubpages&logoColor=white">
