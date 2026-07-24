@@ -4,7 +4,7 @@
 
 ### Task Check-in Hub
 
-把阶段任务、长期任务和每日推进记录在 GitHub 上。
+Track stage goals, long-term work, and daily progress directly on GitHub.
 
 <a href="https://github.com/AlphaCV/Task-Checkin/issues/new?template=checkin.yml">
   <img alt="Daily Check-in" src="https://img.shields.io/badge/Daily_Check--in-2da44e?style=for-the-badge&logo=github&logoColor=white">
@@ -45,7 +45,7 @@ Issue Forms record tasks and check-ins. GitHub Actions refresh the SVG automatic
 Local update example:
 
 ```bash
-python scripts/update_checkins.py add-checkin --task daily-work-log --note "完成今天的工作记录" --progress 80
+python scripts/update_checkins.py add-checkin --task daily-work-log --note "Finished today's work log." --progress 80
 python scripts/render_checkin_svg.py
 ```
 

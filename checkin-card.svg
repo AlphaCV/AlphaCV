@@ -1,158 +1,158 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="672" viewBox="0 0 920 672" role="img" aria-label="Task Check-in">
   <style>
-    .bg { fill: #f6f7f9; }
-    .panel { fill: #ffffff; stroke: #d8e0ea; stroke-width: 1; }
-    .stat { fill: #ffffff; stroke: #d8e0ea; stroke-width: 1; }
-    .task { fill: #ffffff; stroke: #d8e0ea; stroke-width: 1; }
-    .title { fill: #172033; font: 800 30px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
-    .summary { fill: #657184; font: 14px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
-    .label { fill: #657184; font: 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
-    .stat-value { fill: #172033; font: 800 20px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
-    .task-no { fill: #657184; font: 800 13px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
-    .chip { fill: #2563eb; font: 800 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
-    .task-title { fill: #172033; font: 800 17px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
-    .task-id { fill: #657184; font: 12px ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
-    .task-note { fill: #344054; font: 13px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
-    .latest { fill: #657184; font: 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    .bg { fill: #0d1117; }
+    .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+    .stat { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .task { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .title { fill: #f0f6fc; font: 800 30px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    .summary { fill: #8b949e; font: 14px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    .label { fill: #8b949e; font: 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    .stat-value { fill: #f0f6fc; font: 800 20px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    .task-no { fill: #8b949e; font: 800 13px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    .chip { fill: #58a6ff; font: 800 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    .task-title { fill: #f0f6fc; font: 800 17px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    .task-id { fill: #8b949e; font: 12px ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    .task-note { fill: #c9d1d9; font: 13px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    .latest { fill: #8b949e; font: 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
     .due { font: 800 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; text-anchor: middle; }
-    .pct { fill: #172033; font: 800 19px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; text-anchor: end; }
+    .pct { fill: #f0f6fc; font: 800 19px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; text-anchor: end; }
   </style>
   <rect class="bg" width="920" height="672"/>
   <rect class="panel" x="14" y="14" width="892" height="644" rx="10"/>
 
   <text x="32" y="56" class="title">Task Check-in</text>
-  <text x="32" y="82" class="summary">把阶段任务、长期任务和每日推进拆成清晰的独立任务块</text>
-  <text x="32" y="106" class="summary">今天：2026-07-24 · Profile README 展示 · Issue 表单打卡</text>
+  <text x="32" y="82" class="summary">Track stage goals, long-term work, and daily progress as clea...</text>
+  <text x="32" y="106" class="summary">Today: 2026-07-24 - Profile README view - Issue Form check-ins</text>
 
   
     <g transform="translate(32 128)">
       <rect class="stat" width="118" height="58" rx="8"/>
-      <text class="label" x="12" y="22">今日待打卡</text>
+      <text class="label" x="12" y="22">Due today</text>
       <text class="stat-value" x="12" y="45">3</text>
     </g>
   
     <g transform="translate(162 128)">
       <rect class="stat" width="118" height="58" rx="8"/>
-      <text class="label" x="12" y="22">进行中</text>
+      <text class="label" x="12" y="22">Active</text>
       <text class="stat-value" x="12" y="45">3</text>
     </g>
   
     <g transform="translate(292 128)">
       <rect class="stat" width="118" height="58" rx="8"/>
-      <text class="label" x="12" y="22">已完成</text>
+      <text class="label" x="12" y="22">Done</text>
       <text class="stat-value" x="12" y="45">1</text>
     </g>
   
     <g transform="translate(422 128)">
       <rect class="stat" width="118" height="58" rx="8"/>
-      <text class="label" x="12" y="22">总打卡</text>
+      <text class="label" x="12" y="22">Check-ins</text>
       <text class="stat-value" x="12" y="45">11</text>
     </g>
   
     <g transform="translate(552 128)">
       <rect class="stat" width="118" height="58" rx="8"/>
-      <text class="label" x="12" y="22">连续记录</text>
-      <text class="stat-value" x="12" y="45">5 天</text>
+      <text class="label" x="12" y="22">Streak</text>
+      <text class="stat-value" x="12" y="45">5 days</text>
     </g>
   
     <g transform="translate(682 128)">
       <rect class="stat" width="118" height="58" rx="8"/>
-      <text class="label" x="12" y="22">平均进度</text>
+      <text class="label" x="12" y="22">Avg progress</text>
       <text class="stat-value" x="12" y="45">67%</text>
     </g>
 
-  <text class="label" x="636" y="82">最近 14 天</text>
-<rect x="636" y="92" width="13" height="13" rx="3" fill="#ebedf0"><title>2026-07-11: 0 次</title></rect>
-<rect x="653" y="92" width="13" height="13" rx="3" fill="#ebedf0"><title>2026-07-12: 0 次</title></rect>
-<rect x="670" y="92" width="13" height="13" rx="3" fill="#ebedf0"><title>2026-07-13: 0 次</title></rect>
-<rect x="687" y="92" width="13" height="13" rx="3" fill="#ebedf0"><title>2026-07-14: 0 次</title></rect>
-<rect x="704" y="92" width="13" height="13" rx="3" fill="#9be9a8"><title>2026-07-15: 1 次</title></rect>
-<rect x="721" y="92" width="13" height="13" rx="3" fill="#ebedf0"><title>2026-07-16: 0 次</title></rect>
-<rect x="738" y="92" width="13" height="13" rx="3" fill="#ebedf0"><title>2026-07-17: 0 次</title></rect>
-<rect x="755" y="92" width="13" height="13" rx="3" fill="#ebedf0"><title>2026-07-18: 0 次</title></rect>
-<rect x="772" y="92" width="13" height="13" rx="3" fill="#9be9a8"><title>2026-07-19: 1 次</title></rect>
-<rect x="789" y="92" width="13" height="13" rx="3" fill="#9be9a8"><title>2026-07-20: 1 次</title></rect>
-<rect x="806" y="92" width="13" height="13" rx="3" fill="#40c463"><title>2026-07-21: 2 次</title></rect>
-<rect x="823" y="92" width="13" height="13" rx="3" fill="#40c463"><title>2026-07-22: 2 次</title></rect>
-<rect x="840" y="92" width="13" height="13" rx="3" fill="#216e39"><title>2026-07-23: 3 次</title></rect>
-<rect x="857" y="92" width="13" height="13" rx="3" fill="#ebedf0"><title>2026-07-24: 0 次</title></rect>
+  <text class="label" x="636" y="82">Last 14 days</text>
+<rect x="636" y="92" width="13" height="13" rx="3" fill="#161b22"><title>2026-07-11: 0 check-ins</title></rect>
+<rect x="653" y="92" width="13" height="13" rx="3" fill="#161b22"><title>2026-07-12: 0 check-ins</title></rect>
+<rect x="670" y="92" width="13" height="13" rx="3" fill="#161b22"><title>2026-07-13: 0 check-ins</title></rect>
+<rect x="687" y="92" width="13" height="13" rx="3" fill="#161b22"><title>2026-07-14: 0 check-ins</title></rect>
+<rect x="704" y="92" width="13" height="13" rx="3" fill="#9be9a8"><title>2026-07-15: 1 check-ins</title></rect>
+<rect x="721" y="92" width="13" height="13" rx="3" fill="#161b22"><title>2026-07-16: 0 check-ins</title></rect>
+<rect x="738" y="92" width="13" height="13" rx="3" fill="#161b22"><title>2026-07-17: 0 check-ins</title></rect>
+<rect x="755" y="92" width="13" height="13" rx="3" fill="#161b22"><title>2026-07-18: 0 check-ins</title></rect>
+<rect x="772" y="92" width="13" height="13" rx="3" fill="#9be9a8"><title>2026-07-19: 1 check-ins</title></rect>
+<rect x="789" y="92" width="13" height="13" rx="3" fill="#9be9a8"><title>2026-07-20: 1 check-ins</title></rect>
+<rect x="806" y="92" width="13" height="13" rx="3" fill="#40c463"><title>2026-07-21: 2 check-ins</title></rect>
+<rect x="823" y="92" width="13" height="13" rx="3" fill="#40c463"><title>2026-07-22: 2 check-ins</title></rect>
+<rect x="840" y="92" width="13" height="13" rx="3" fill="#216e39"><title>2026-07-23: 3 check-ins</title></rect>
+<rect x="857" y="92" width="13" height="13" rx="3" fill="#161b22"><title>2026-07-24: 0 check-ins</title></rect>
 
-  <text class="summary" x="32" y="224">任务块按“今日待打卡优先”排序；打卡时填写下方每条任务的 ID。</text>
+  <text class="summary" x="32" y="224">Task blocks are sorted by today's check-in status. Use each task ID when logging progress.</text>
   
   <g transform="translate(28 248)">
     <rect class="task" width="864" height="88" rx="8"/>
-    <rect x="0" y="0" width="5" height="88" rx="3" fill="#b7791f"/>
+    <rect x="0" y="0" width="5" height="88" rx="3" fill="#d29922"/>
     <text class="task-no" x="20" y="29">#01</text>
-    <text class="chip" x="70" y="29">每日 · 每日</text>
-    <text class="task-title" x="20" y="55">每日工作日志</text>
+    <text class="chip" x="70" y="29">Habit - Daily</text>
+    <text class="task-title" x="20" y="55">Daily Work Log</text>
     <text class="task-id" x="20" y="76">ID: daily-work-log</text>
 
-    <text class="task-note" x="300" y="31">目标：记录每天完成项、阻塞项和次日计划</text>
-    <text class="task-note" x="300" y="56">下一步：今天结束前补充一条工作记录</text>
-    <text class="latest" x="300" y="76">最新：2026-07-23 · 记录 GitHub 展示模块初版。</text>
+    <text class="task-note" x="300" y="31">Goal: Record completed work, blockers, ...</text>
+    <text class="task-note" x="300" y="56">Next: Add one work-log entry before the...</text>
+    <text class="latest" x="300" y="76">Latest: 2026-07-23 - Updated the GitHub profile d...</text>
 
-    <text class="due" x="742" y="28" fill="#c24141">今日待打卡</text>
+    <text class="due" x="742" y="28" fill="#ff7b72">Due today</text>
     <text class="pct" x="832" y="28">76%</text>
-    <rect x="650" y="48" width="188" height="9" rx="4.5" fill="#e7ebf0"/>
-    <rect x="650" y="48" width="143" height="9" rx="4.5" fill="#2563eb"/>
-    <text class="latest" x="650" y="75">进行中 · 2026-07-10 - 长期</text>
+    <rect x="650" y="48" width="188" height="9" rx="4.5" fill="#30363d"/>
+    <rect x="650" y="48" width="143" height="9" rx="4.5" fill="#58a6ff"/>
+    <text class="latest" x="650" y="75">Active - 2026-07-10 - Long-term</text>
   </g>
 
   <g transform="translate(28 348)">
     <rect class="task" width="864" height="88" rx="8"/>
-    <rect x="0" y="0" width="5" height="88" rx="3" fill="#c24141"/>
+    <rect x="0" y="0" width="5" height="88" rx="3" fill="#ff7b72"/>
     <text class="task-no" x="20" y="29">#02</text>
-    <text class="chip" x="70" y="29">阶段 · 每周</text>
-    <text class="task-title" x="20" y="55">实习周报与阶段复盘</text>
+    <text class="chip" x="70" y="29">Stage - Weekly</text>
+    <text class="task-title" x="20" y="55">Internship Weekly Review</text>
     <text class="task-id" x="20" y="76">ID: internship-weekly-report</text>
 
-    <text class="task-note" x="300" y="31">目标：每周沉淀一次阶段成果、问题和下周计划</text>
-    <text class="task-note" x="300" y="56">下一步：补充本周完成事项和阻塞点</text>
-    <text class="latest" x="300" y="76">最新：2026-07-23 · 更新复现说明和当前任务看板。</text>
+    <text class="task-note" x="300" y="31">Goal: Review weekly outcomes, problems,...</text>
+    <text class="task-note" x="300" y="56">Next: Fill in this week&#x27;s completed ite...</text>
+    <text class="latest" x="300" y="76">Latest: 2026-07-23 - Updated reproduction notes a...</text>
 
-    <text class="due" x="742" y="28" fill="#c24141">今日待打卡</text>
+    <text class="due" x="742" y="28" fill="#ff7b72">Due today</text>
     <text class="pct" x="832" y="28">68%</text>
-    <rect x="650" y="48" width="188" height="9" rx="4.5" fill="#e7ebf0"/>
-    <rect x="650" y="48" width="128" height="9" rx="4.5" fill="#2563eb"/>
-    <text class="latest" x="650" y="75">进行中 · 2026-07-01 - 2026-07-31</text>
+    <rect x="650" y="48" width="188" height="9" rx="4.5" fill="#30363d"/>
+    <rect x="650" y="48" width="128" height="9" rx="4.5" fill="#58a6ff"/>
+    <text class="latest" x="650" y="75">Active - 2026-07-01 - 2026-07-31</text>
   </g>
 
   <g transform="translate(28 448)">
     <rect class="task" width="864" height="88" rx="8"/>
-    <rect x="0" y="0" width="5" height="88" rx="3" fill="#b7791f"/>
+    <rect x="0" y="0" width="5" height="88" rx="3" fill="#d29922"/>
     <text class="task-no" x="20" y="29">#03</text>
-    <text class="chip" x="70" y="29">长期 · 每周</text>
-    <text class="task-title" x="20" y="55">算法与工程能力积累</text>
+    <text class="chip" x="70" y="29">Long-term - Weekly</text>
+    <text class="task-title" x="20" y="55">Algorithm and Engineering G...</text>
     <text class="task-id" x="20" y="76">ID: algorithm-learning</text>
 
-    <text class="task-note" x="300" y="31">目标：持续记录学习笔记、代码复盘和工程实践</text>
-    <text class="task-note" x="300" y="56">下一步：补一篇代码结构复盘笔记</text>
-    <text class="latest" x="300" y="76">最新：2026-07-22 · 补充实验记录和问题清单。</text>
+    <text class="task-note" x="300" y="31">Goal: Keep notes on learning, code revi...</text>
+    <text class="task-note" x="300" y="56">Next: Add one code-structure review not...</text>
+    <text class="latest" x="300" y="76">Latest: 2026-07-22 - Added experiment notes and a...</text>
 
-    <text class="due" x="742" y="28" fill="#c24141">今日待打卡</text>
+    <text class="due" x="742" y="28" fill="#ff7b72">Due today</text>
     <text class="pct" x="832" y="28">24%</text>
-    <rect x="650" y="48" width="188" height="9" rx="4.5" fill="#e7ebf0"/>
-    <rect x="650" y="48" width="45" height="9" rx="4.5" fill="#c24141"/>
-    <text class="latest" x="650" y="75">进行中 · 2026-07-01 - 2026-12-31</text>
+    <rect x="650" y="48" width="188" height="9" rx="4.5" fill="#30363d"/>
+    <rect x="650" y="48" width="45" height="9" rx="4.5" fill="#ff7b72"/>
+    <text class="latest" x="650" y="75">Active - 2026-07-01 - 2026-12-31</text>
   </g>
 
   <g transform="translate(28 548)">
     <rect class="task" width="864" height="88" rx="8"/>
-    <rect x="0" y="0" width="5" height="88" rx="3" fill="#c24141"/>
+    <rect x="0" y="0" width="5" height="88" rx="3" fill="#ff7b72"/>
     <text class="task-no" x="20" y="29">#04</text>
-    <text class="chip" x="70" y="29">里程碑 · 一次性</text>
-    <text class="task-title" x="20" y="55">GitHub Profile 打卡展示</text>
+    <text class="chip" x="70" y="29">Milestone - Once</text>
+    <text class="task-title" x="20" y="55">GitHub Profile Check-in Boa...</text>
     <text class="task-id" x="20" y="76">ID: profile-checkin-board</text>
 
-    <text class="task-note" x="300" y="31">目标：打开 GitHub 个人主页时直接看到打卡展示</text>
-    <text class="task-note" x="300" y="56">下一步：复制 Profile README 模板到 username/us...</text>
-    <text class="latest" x="300" y="76">最新：2026-07-23 · 完成 README SVG 卡片、页面和任务添加脚本。</text>
+    <text class="task-note" x="300" y="31">Goal: Show the check-in board directly ...</text>
+    <text class="task-note" x="300" y="56">Next: Keep the profile entry synced wit...</text>
+    <text class="latest" x="300" y="76">Latest: 2026-07-23 - Completed the README SVG car...</text>
 
-    <text class="due" x="742" y="28" fill="#657184">完成</text>
+    <text class="due" x="742" y="28" fill="#8b949e">Done</text>
     <text class="pct" x="832" y="28">100%</text>
-    <rect x="650" y="48" width="188" height="9" rx="4.5" fill="#e7ebf0"/>
-    <rect x="650" y="48" width="188" height="9" rx="4.5" fill="#16845b"/>
-    <text class="latest" x="650" y="75">完成 · 2026-07-23 - 2026-07-23</text>
+    <rect x="650" y="48" width="188" height="9" rx="4.5" fill="#30363d"/>
+    <rect x="650" y="48" width="188" height="9" rx="4.5" fill="#3fb950"/>
+    <text class="latest" x="650" y="75">Done - 2026-07-23 - 2026-07-23</text>
   </g>
   
 </svg>
