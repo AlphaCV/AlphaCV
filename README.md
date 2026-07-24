@@ -10,7 +10,7 @@
 <br>
 
 <a href="https://alphacv.github.io/Task-Checkin/">
-  <img alt="Task Check-in board" src="./checkin-card.svg" width="920">
+  <img alt="Task Check-in board" src="https://raw.githubusercontent.com/AlphaCV/Task-Checkin/main/docs/checkin-card.svg" width="920">
 </a>
 
 <br>
