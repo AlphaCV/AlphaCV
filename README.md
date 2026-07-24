@@ -30,23 +30,3 @@ Issue Forms record tasks and check-ins. GitHub Actions refresh the SVG automatic
 </sub>
 
 </div>
-
----
-
-<details>
-<summary><strong>How I use this board</strong></summary>
-
-| Action | Entry | Description |
-| --- | --- | --- |
-| Daily check-in | [Open form](https://github.com/AlphaCV/Task-Checkin/issues/new?template=checkin.yml) | Add today's progress to an existing task. |
-| New task | [Open form](https://github.com/AlphaCV/Task-Checkin/issues/new?template=add-task.yml) | Create a separate task block with priority and cadence. |
-| Full dashboard | [Open page](https://alphacv.github.io/Task-Checkin/) | View task cards, heatmap, records and anime check-in scenes. |
-
-Local update example:
-
-```bash
-python scripts/update_checkins.py add-checkin --task daily-work-log --note "Finished today's work log." --progress 80
-python scripts/render_checkin_svg.py
-```
-
-</details>
