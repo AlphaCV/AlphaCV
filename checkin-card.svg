@@ -88,7 +88,7 @@
     <text class="task-id" x="20" y="76">ID: daily-work-log</text>
 
     <text class="task-note" x="300" y="31">Goal: Record completed work, blockers, ...</text>
-    <text class="task-note" x="300" y="56">Next: Add one work-log entry before the...</text>
+    <text class="task-note" x="300" y="56">Next: Add one work-log note before the ...</text>
     <text class="latest" x="300" y="76">Latest: 2026-07-23 - Updated the GitHub profile d...</text>
 
     <text class="due" x="742" y="28" fill="#ff7b72">Due today</text>
@@ -145,7 +145,7 @@
     <text class="task-id" x="20" y="76">ID: profile-checkin-board</text>
 
     <text class="task-note" x="300" y="31">Goal: Show the check-in board directly ...</text>
-    <text class="task-note" x="300" y="56">Next: Keep the profile entry synced wit...</text>
+    <text class="task-note" x="300" y="56">Next: Keep the profile card synced with...</text>
     <text class="latest" x="300" y="76">Latest: 2026-07-23 - Completed the README SVG car...</text>
 
     <text class="due" x="742" y="28" fill="#8b949e">Done</text>
