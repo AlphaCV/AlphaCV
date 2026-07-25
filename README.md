@@ -9,9 +9,7 @@
 <br>
 <br>
 
-<a href="https://alphacv.github.io/Task-Checkin/">
-  <img alt="Task Check-in board" src="https://alphacv.github.io/Task-Checkin/profile-checkin-card.svg" width="920">
-</a>
+<img alt="Task Check-in board" src="https://alphacv.github.io/Task-Checkin/profile-checkin-card.svg" width="920">
 
 <br>
 
